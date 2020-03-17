@@ -50,6 +50,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
@@ -66,6 +67,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 html {
     font-size: 62.5%;
 }
@@ -80,6 +82,7 @@ body {
 }
 
 /*********************************Header Styles**************************/
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -105,6 +108,7 @@ header nav a:hover {
 }
 
 /*********************************Call to action(cta) Styles**************************/
+
 .cta {
 	display: flex;
 	justify-content: flex-end;
@@ -171,6 +175,7 @@ header nav a:hover {
 }
 
 /*********************************Footer Styles**************************/
+
 .contact {
 	margin: 35px 0;
 	font-size: 1.6rem;
@@ -187,6 +192,7 @@ footer {
 }
 
 /*********************************Services Styles**************************/
+
 .services-header-img {
 	margin: 25px 0px;
 }
@@ -204,6 +210,7 @@ footer {
 
 
 /*********************************Section Styles**************************/
+
 .middle-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -230,6 +237,7 @@ footer {
 }
 
 /*********************************Bottom Styles**************************/
+
 .bottom-container {
 	display: flex;
 	justify-content: space-between;
@@ -250,7 +258,8 @@ footer {
 }
 
 
-/*Tablet*/
+/**********Tablet**********/
+
 @media (max-width: 800px) {
     .container {
         width: 90%;
@@ -288,7 +297,8 @@ footer {
 }
 
 
-/*Phone*/
+/**********Phone***********/
+
 @media (max-width: 500px) {
     .container {
         width: 100%;
